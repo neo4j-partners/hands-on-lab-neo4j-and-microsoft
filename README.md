@@ -50,15 +50,14 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ### Assignment 3
 
-* Lecture - Microsoft Foundry (15 min)
+* Lecture - Foundry (15 min)
   * Microsoft and AI
   * What is Foundry
 * Lecture - Neo4j and AI (15 min)
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation
   * Using Foundry with Neo4j
-* Lab 6 - Document Intelligence (15 min)
-* Lab 7 - Foundry Agents (15 min)
-* Lab 8 - Context Providers (15 min)
-* Lab 9 - Aura Agent (15 min)
+* Lab 6 - Document Intelligence (20 min)
+* Lab 7 - MCP Tool (20 min)
+* Lab 9 - Aura Agent (20 min)
 * Questions and Next Steps (5 min)
