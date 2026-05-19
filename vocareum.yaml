@@ -1,0 +1,506 @@
+version: '1.0'
+vocareum:
+  org_id: '613'
+  course_id: '214540'
+  api_base_url: https://api.vocareum.com
+  templates: []
+  template_assignment_ids: []
+  excluded_assignments: []
+assignments:
+  - path: assignment-1-getting-started
+    name: Assignment 1 - Getting Started
+    assignment_id: '5419122'
+    create_from_template: false
+    settings:
+      nosubmit: true
+      auto_submit: false
+      grading_on_submit: true
+      noworkarea: false
+    parts:
+      - part_id: '5429699'
+        path: part1
+        name: Lecture - Introduction to Neo4j
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5419123'
+        path: part2
+        name: Lab 1 - Sign In
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429695'
+        path: part3
+        name: Lab 2 - Connect to Neo4j
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429696'
+        path: part4
+        name: Lab 3 - Deploy Neo4j
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+  - path: assignment-2-query-and-explore
+    name: Assignment 2 - Query and Explore
+    assignment_id: '5419142'
+    create_from_template: false
+    settings:
+      nosubmit: true
+      auto_submit: false
+      grading_on_submit: true
+      noworkarea: false
+    parts:
+      - part_id: '5419143'
+        path: part1
+        name: Lecture - Moving Data
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429752'
+        path: part2
+        name: Lab 4 - Query
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429753'
+        path: part3
+        name: Lab 5 - Explore
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+  - path: assignment-3-ai-and-agents
+    name: Assignment 3 - AI and Agents
+    assignment_id: '5419144'
+    create_from_template: false
+    settings:
+      nosubmit: true
+      auto_submit: false
+      grading_on_submit: true
+      noworkarea: false
+    parts:
+      - part_id: '5419145'
+        path: part1
+        name: Lecture - Foundry
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '240'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429754'
+        path: part2
+        name: Lecture - Neo4j and AI
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429757'
+        path: part3
+        name: Lab 6 - Document Intelligence
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429758'
+        path: part4
+        name: Lab 7 - MCP Tool
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429759'
+        path: part5
+        name: Lab 8 - Aura Agent
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+      - part_id: '5429830'
+        path: part6
+        name: Questions and Next Steps
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '0'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '0'
+          labtype: Document
+          lab_interface:
+            panels:
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+  - path: cloud-environment
+    name: Cloud Environment
+    assignment_id: '5419102'
+    create_from_template: false
+    settings:
+      nosubmit: true
+      auto_submit: false
+      grading_on_submit: true
+      noworkarea: false
+    parts:
+      - part_id: '5419103'
+        path: .
+        name: Cloud Environment
+        directories:
+          - docs
+          - scripts
+          - startercode
+          - private
+          - data
+        settings:
+          cloud_labs: false
+          instant_aws_access: false
+          session_length: '300'
+          monthly_dollar: '0'
+          monthly_time: '0'
+          total_time: '0'
+          total_dollar: '50'
+          labtype: Vocareum Notebook
+          container_image: Jupyter v1.64
+          lab_interface:
+            panels:
+              - Source
+              - File Browser
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+          tags: []
+publish_history:
+  - timestamp: '2026-05-19T23:25:33.129Z'
+    commit_sha: ae98f9f
+    published_by: Ben Lackey
+    status: success
+    content_state:
+      assignment-1-getting-started/part1/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/part2/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
