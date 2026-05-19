@@ -429,6 +429,534 @@ assignments:
               - Assignments
           tags: []
 publish_history:
+  - timestamp: '2026-05-19T23:43:08.993Z'
+    commit_sha: 2b4679e
+    published_by: Ben Lackey
+    status: success
+    content_state:
+      assignment-1-getting-started/part1/docs: 3fcc3d9a83526f26a2cab81ff99ef26487f45314ea7e5a915f52fcc909feca25
+      assignment-1-getting-started/part1/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part1/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/docs: e9c5202566a2ee75ce5d5a0a4d611980cdceb711f647d1bcc6275342a13dd551
+      assignment-1-getting-started/part2/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/part2/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part2/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/docs: 843a24984e5421e45d46a783b1f346195f3531b32a79fdf8806c6c1cb0fe341e
+      assignment-1-getting-started/part3/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part3/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/docs: f84f9c7a66d3cc4774968a2ab20feb56947c02b78365cf471693c7b9441174f9
+      assignment-1-getting-started/part4/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/part4/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/docs: da524ce4349e20c28b7b4f2e413f7d4147d9b9421f0174a29b561f9e724491b9
+      assignment-2-query-and-explore/part1/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part1/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/docs: 76d77c514dec0ca5d1ffbb1783427e07e1ea1be4e099c99ba56e144b46c3d91c
+      assignment-2-query-and-explore/part2/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part2/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/docs: d85a58b30ae116572d8aacd566581cb169769022c687466b021760fc54675175
+      assignment-2-query-and-explore/part3/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/part3/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/docs: e4faab7d68470f47feb3264df5d4b26f67c929feb62d04e81ad6f2b1504fdf51
+      assignment-3-ai-and-agents/part1/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part1/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/docs: 7d28726d7899c420c4aa3edb6ce9f0def2e472b9ce84508540c4c4df78a7bc09
+      assignment-3-ai-and-agents/part2/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part2/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/docs: f3f94b25b56d91f791871a79a3294aac248e9fbc540772118fa856d6a9c20bc4
+      assignment-3-ai-and-agents/part3/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part3/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/docs: 2133d26a7ca63d9ae150e992ed2ad709b75c627c5a3783defe6acd60a6f5211a
+      assignment-3-ai-and-agents/part4/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part4/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/docs: 75a54ebc4af84b29cf0b42539c7a275ab2beaea8fb1d017cbcd7d1e469e692f8
+      assignment-3-ai-and-agents/part5/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part5/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/docs: 3d9959c7e828d66f46f833e0157ec1b0e2bad2d4f04dcaf966b44f1744d4e8dd
+      assignment-3-ai-and-agents/part6/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/part6/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+    file_size_state:
+      assignment-1-getting-started/part1/docs/README.md: 40
+      assignment-1-getting-started/part2/docs/README.md: 3541
+      assignment-1-getting-started/part2/docs/images/01.png: 741564
+      assignment-1-getting-started/part2/docs/images/02.png: 721671
+      assignment-1-getting-started/part2/docs/images/02a.png: 2040071
+      assignment-1-getting-started/part2/docs/images/02b.png: 1637319
+      assignment-1-getting-started/part2/docs/images/02c.png: 1651880
+      assignment-1-getting-started/part2/docs/images/03.png: 712478
+      assignment-1-getting-started/part2/docs/images/04.png: 856613
+      assignment-1-getting-started/part2/docs/images/05.png: 159277
+      assignment-1-getting-started/part2/docs/images/06.png: 196810
+      assignment-1-getting-started/part2/docs/images/07.png: 69048
+      assignment-1-getting-started/part2/docs/images/find_resource_group.png: 581104
+      assignment-1-getting-started/part2/docs/images/oneblink_rg.png: 143594
+      assignment-1-getting-started/part3/docs/README.md: 3378
+      assignment-1-getting-started/part4/docs/README.md: 2321
+      assignment-1-getting-started/part4/docs/images/28.png: 318642
+      assignment-1-getting-started/part4/docs/images/29.png: 119475
+      assignment-1-getting-started/part4/docs/images/31.png: 255183
+      assignment-1-getting-started/part4/docs/images/AMP_AURA_PAY_GO.png: 119260
+      assignment-1-getting-started/part4/docs/images/Aura_Create_Instance.png: 177214
+      assignment-1-getting-started/part4/docs/images/ConfigureAccount.png: 92841
+      assignment-1-getting-started/part4/docs/images/Connect_instance.png: 28512
+      assignment-1-getting-started/part4/docs/images/Explore.png: 92104
+      assignment-1-getting-started/part4/docs/images/Find_AMP.png: 62057
+      assignment-1-getting-started/part4/docs/images/InstanceReady.png: 63193
+      assignment-1-getting-started/part4/docs/images/Save_Credentials.png: 55816
+      assignment-1-getting-started/part4/docs/images/add_cypher_template_tool.png: 126370
+      assignment-1-getting-started/part4/docs/images/agent_tool_shared_risk.png: 109301
+      assignment-1-getting-started/part4/docs/images/ai_ml_agent_response.png: 116669
+      assignment-1-getting-started/part4/docs/images/apple_agent_reasoning.png: 102828
+      assignment-1-getting-started/part4/docs/images/apple_query_agent.png: 111286
+      assignment-1-getting-started/part4/docs/images/asset_manager_owns.png: 103287
+      assignment-1-getting-started/part4/docs/images/aura_agents.png: 109272
+      assignment-1-getting-started/part4/docs/images/aura_agents_details.png: 141138
+      assignment-1-getting-started/part4/docs/images/aura_new_project.png: 46997
+      assignment-1-getting-started/part4/docs/images/backup_restore.png: 54135
+      assignment-1-getting-started/part4/docs/images/company_graph.png: 309464
+      assignment-1-getting-started/part4/docs/images/company_risk_factors.png: 81613
+      assignment-1-getting-started/part4/docs/images/create_instance.png: 331148
+      assignment-1-getting-started/part4/docs/images/degree_centality_graph.png: 458219
+      assignment-1-getting-started/part4/docs/images/degree_centrality.png: 37188
+      assignment-1-getting-started/part4/docs/images/graph_data_science.png: 103575
+      assignment-1-getting-started/part4/docs/images/neo4j_paygo.png: 141668
+      assignment-1-getting-started/part4/docs/images/neo4j_paygo2.png: 871895
+      assignment-1-getting-started/part4/docs/images/restore_drag.png: 49032
+      assignment-1-getting-started/part4/docs/images/select_marketplace.png: 327495
+      assignment-1-getting-started/part4/docs/images/sign-up-aura.png: 260209
+      assignment-1-getting-started/part4/docs/images/sign-up-aura2.png: 805751
+      assignment-1-getting-started/part4/docs/images/similiarity_search_tool.png: 97824
+      assignment-1-getting-started/part4/docs/images/size_nodes.png: 32616
+      assignment-1-getting-started/part4/docs/images/text2cypher_tool.png: 54736
+      assignment-2-query-and-explore/part1/docs/README.md: 30
+      assignment-2-query-and-explore/part2/docs/README.md: 0
+      assignment-2-query-and-explore/part3/docs/README.md: 3076
+      assignment-3-ai-and-agents/part1/docs/README.md: 26
+      assignment-3-ai-and-agents/part2/docs/README.md: 31
+      assignment-3-ai-and-agents/part3/docs/README.md: 38
+      assignment-3-ai-and-agents/part4/docs/README.md: 25
+      assignment-3-ai-and-agents/part5/docs/README.md: 27
+      assignment-3-ai-and-agents/part6/docs/README.md: 2281
+    changes:
+      files:
+        - path: assignment-1-getting-started/part1/docs/README.md
+          part_id: '5429699'
+          directory: docs
+          previous_size: 0
+          current_size: 40
+          delta: 40
+        - path: assignment-1-getting-started/part2/docs/README.md
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 3541
+          delta: 3541
+        - path: assignment-1-getting-started/part2/docs/images/01.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 741564
+          delta: 741564
+        - path: assignment-1-getting-started/part2/docs/images/02.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 721671
+          delta: 721671
+        - path: assignment-1-getting-started/part2/docs/images/02a.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 2040071
+          delta: 2040071
+        - path: assignment-1-getting-started/part2/docs/images/02b.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 1637319
+          delta: 1637319
+        - path: assignment-1-getting-started/part2/docs/images/02c.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 1651880
+          delta: 1651880
+        - path: assignment-1-getting-started/part2/docs/images/03.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 712478
+          delta: 712478
+        - path: assignment-1-getting-started/part2/docs/images/04.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 856613
+          delta: 856613
+        - path: assignment-1-getting-started/part2/docs/images/05.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 159277
+          delta: 159277
+        - path: assignment-1-getting-started/part2/docs/images/06.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 196810
+          delta: 196810
+        - path: assignment-1-getting-started/part2/docs/images/07.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 69048
+          delta: 69048
+        - path: assignment-1-getting-started/part2/docs/images/find_resource_group.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 581104
+          delta: 581104
+        - path: assignment-1-getting-started/part2/docs/images/oneblink_rg.png
+          part_id: '5419123'
+          directory: docs
+          previous_size: 0
+          current_size: 143594
+          delta: 143594
+        - path: assignment-1-getting-started/part3/docs/README.md
+          part_id: '5429695'
+          directory: docs
+          previous_size: 0
+          current_size: 3378
+          delta: 3378
+        - path: assignment-1-getting-started/part4/docs/README.md
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 2321
+          delta: 2321
+        - path: assignment-1-getting-started/part4/docs/images/28.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 318642
+          delta: 318642
+        - path: assignment-1-getting-started/part4/docs/images/29.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 119475
+          delta: 119475
+        - path: assignment-1-getting-started/part4/docs/images/31.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 255183
+          delta: 255183
+        - path: assignment-1-getting-started/part4/docs/images/AMP_AURA_PAY_GO.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 119260
+          delta: 119260
+        - path: assignment-1-getting-started/part4/docs/images/Aura_Create_Instance.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 177214
+          delta: 177214
+        - path: assignment-1-getting-started/part4/docs/images/ConfigureAccount.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 92841
+          delta: 92841
+        - path: assignment-1-getting-started/part4/docs/images/Connect_instance.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 28512
+          delta: 28512
+        - path: assignment-1-getting-started/part4/docs/images/Explore.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 92104
+          delta: 92104
+        - path: assignment-1-getting-started/part4/docs/images/Find_AMP.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 62057
+          delta: 62057
+        - path: assignment-1-getting-started/part4/docs/images/InstanceReady.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 63193
+          delta: 63193
+        - path: assignment-1-getting-started/part4/docs/images/Save_Credentials.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 55816
+          delta: 55816
+        - path: assignment-1-getting-started/part4/docs/images/add_cypher_template_tool.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 126370
+          delta: 126370
+        - path: assignment-1-getting-started/part4/docs/images/agent_tool_shared_risk.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 109301
+          delta: 109301
+        - path: assignment-1-getting-started/part4/docs/images/ai_ml_agent_response.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 116669
+          delta: 116669
+        - path: assignment-1-getting-started/part4/docs/images/apple_agent_reasoning.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 102828
+          delta: 102828
+        - path: assignment-1-getting-started/part4/docs/images/apple_query_agent.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 111286
+          delta: 111286
+        - path: assignment-1-getting-started/part4/docs/images/asset_manager_owns.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 103287
+          delta: 103287
+        - path: assignment-1-getting-started/part4/docs/images/aura_agents.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 109272
+          delta: 109272
+        - path: assignment-1-getting-started/part4/docs/images/aura_agents_details.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 141138
+          delta: 141138
+        - path: assignment-1-getting-started/part4/docs/images/aura_new_project.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 46997
+          delta: 46997
+        - path: assignment-1-getting-started/part4/docs/images/backup_restore.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 54135
+          delta: 54135
+        - path: assignment-1-getting-started/part4/docs/images/company_graph.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 309464
+          delta: 309464
+        - path: assignment-1-getting-started/part4/docs/images/company_risk_factors.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 81613
+          delta: 81613
+        - path: assignment-1-getting-started/part4/docs/images/create_instance.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 331148
+          delta: 331148
+        - path: assignment-1-getting-started/part4/docs/images/degree_centality_graph.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 458219
+          delta: 458219
+        - path: assignment-1-getting-started/part4/docs/images/degree_centrality.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 37188
+          delta: 37188
+        - path: assignment-1-getting-started/part4/docs/images/graph_data_science.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 103575
+          delta: 103575
+        - path: assignment-1-getting-started/part4/docs/images/neo4j_paygo.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 141668
+          delta: 141668
+        - path: assignment-1-getting-started/part4/docs/images/neo4j_paygo2.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 871895
+          delta: 871895
+        - path: assignment-1-getting-started/part4/docs/images/restore_drag.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 49032
+          delta: 49032
+        - path: assignment-1-getting-started/part4/docs/images/select_marketplace.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 327495
+          delta: 327495
+        - path: assignment-1-getting-started/part4/docs/images/sign-up-aura.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 260209
+          delta: 260209
+        - path: assignment-1-getting-started/part4/docs/images/sign-up-aura2.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 805751
+          delta: 805751
+        - path: assignment-1-getting-started/part4/docs/images/similiarity_search_tool.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 97824
+          delta: 97824
+        - path: assignment-1-getting-started/part4/docs/images/size_nodes.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 32616
+          delta: 32616
+        - path: assignment-1-getting-started/part4/docs/images/text2cypher_tool.png
+          part_id: '5429696'
+          directory: docs
+          previous_size: 0
+          current_size: 54736
+          delta: 54736
+        - path: assignment-2-query-and-explore/part1/docs/README.md
+          part_id: '5419143'
+          directory: docs
+          previous_size: 0
+          current_size: 30
+          delta: 30
+        - path: assignment-2-query-and-explore/part2/docs/README.md
+          part_id: '5429752'
+          directory: docs
+          previous_size: 0
+          current_size: 0
+          delta: 0
+        - path: assignment-2-query-and-explore/part3/docs/README.md
+          part_id: '5429753'
+          directory: docs
+          previous_size: 0
+          current_size: 3076
+          delta: 3076
+        - path: assignment-3-ai-and-agents/part1/docs/README.md
+          part_id: '5419145'
+          directory: docs
+          previous_size: 0
+          current_size: 26
+          delta: 26
+        - path: assignment-3-ai-and-agents/part2/docs/README.md
+          part_id: '5429754'
+          directory: docs
+          previous_size: 0
+          current_size: 31
+          delta: 31
+        - path: assignment-3-ai-and-agents/part3/docs/README.md
+          part_id: '5429757'
+          directory: docs
+          previous_size: 0
+          current_size: 38
+          delta: 38
+        - path: assignment-3-ai-and-agents/part4/docs/README.md
+          part_id: '5429758'
+          directory: docs
+          previous_size: 0
+          current_size: 25
+          delta: 25
+        - path: assignment-3-ai-and-agents/part5/docs/README.md
+          part_id: '5429759'
+          directory: docs
+          previous_size: 0
+          current_size: 27
+          delta: 27
+        - path: assignment-3-ai-and-agents/part6/docs/README.md
+          part_id: '5429830'
+          directory: docs
+          previous_size: 0
+          current_size: 2281
+          delta: 2281
+    created: []
+    updated:
+      - assignment: '5419122'
+        parts:
+          - '5429699'
+          - '5419123'
+          - '5429695'
+          - '5429696'
+      - assignment: '5419142'
+        parts:
+          - '5419143'
+          - '5429752'
+          - '5429753'
+      - assignment: '5419144'
+        parts:
+          - '5419145'
+          - '5429754'
+          - '5429757'
+          - '5429758'
+          - '5429759'
+          - '5429830'
+      - assignment: '5419102'
+        parts: []
   - timestamp: '2026-05-19T23:25:33.129Z'
     commit_sha: ae98f9f
     published_by: Ben Lackey
