@@ -1,4 +1,4 @@
-# Lab 0 - Sign In
+# Lab 1 - Sign In
 
 **Important:** During the sign-up process, be sure to save your Resource Group name as it will be needed throughout the labs.
 
