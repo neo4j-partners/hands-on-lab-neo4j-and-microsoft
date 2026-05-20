@@ -1,3 +1,3 @@
 # Lab 7 - MCP Tool
 
-To do
+https://neo4j.com/labs/genai-ecosystem/genai-frameworks/microsoft-foundry-mcp/
