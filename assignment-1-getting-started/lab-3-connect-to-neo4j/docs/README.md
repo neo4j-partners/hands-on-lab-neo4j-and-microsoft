@@ -1,60 +1,34 @@
-# Lab 1: Neo4j Aura Setup and Exploration
+# Lab 3 - Connect to Neo4j
 
-In this lab, you will set up your Neo4j Aura database on Azure Marketplace, restore the knowledge graph from a backup, and explore your graph visually.
+In this lab, we're going to connect to the Neo4j deployment we created in the previous step.  We'll start where we left off in lab 2.
 
-## Prerequisites
+Click "Connect."
 
-- Completed **Lab 0** (Azure sign-in)
-- Access to Azure Portal
+![](images/01.png)
 
-## Part 1: Neo4j Aura Signup
+Then select "Query."
 
-Follow the instructions in [Neo4j_Aura_Signup.md](Neo4j_Aura_Signup.md) to:
+![](images/02.png)
 
-1. Subscribe to Neo4j Aura through Azure Marketplace
-2. Create your Neo4j Aura account
-3. Configure and provision your database instance
-4. Save your connection credentials
+That will drop us into an empty database.
 
-## Part 2: Restore the Backup
+There's nothing in our database yet.  We can see the nodes, relationships and property key areas are all blank.
 
-After your Aura instance is running, restore the pre-built knowledge graph:
+We can try running a simple Cypher command.  For isntance we can show the databases in our instance.  We can do that by entering the following command into the Neo4j the query field:
 
-### Step 1: Download the Backup File
+    SHOW DATABASES;
 
-1. Download the backup file from GitHub:
-   - **Download link:** [finance_data.backup](https://github.com/neo4j-partners/neo4j-and-azure-lab/raw/refs/heads/main/Lab_1_Aura_Setup/data/finance_data.backup)
-2. Save the file to a location you can easily find (e.g., your Downloads folder)
+![](images/03.png)
 
-### Step 2: Upload to Aura
+Then press the triangle with a circle around it to run the query.
 
-1. Go to your instance in the [Aura Console](https://console.neo4j.io)
-2. Click the **...** menu on your instance and select **Backup & restore**
+![](images/04.png)
 
-   ![Instance menu showing Backup & restore option](images/backup_restore.png)
+You can see we have two databases:
 
-3. Click **Upload backup** to open the upload dialog
-4. Upload or drag the `finance_data.backup` file you downloaded into the dialog:
+* neo4j - The default database
+* system - Used by the system to store internal information
 
-   ![Upload backup dialog with drag and drop area](images/restore_drag.png)
+![](images/05.png)
 
-5. Wait for the restore to complete - your instance will restart with the SEC 10-K filings knowledge graph
-
-The backup contains:
-- SEC 10-K filing documents from major companies (Apple, Microsoft, NVIDIA, etc.)
-- Extracted entities: Companies, Risk Factors, Products, Executives, Financial Metrics
-- Asset manager ownership data
-- Text chunks with vector embeddings for semantic search
-
-## Part 3: Explore the Knowledge Graph
-
-Follow [EXPLORE.md](EXPLORE.md) to:
-
-1. Use Neo4j Explore to visually navigate your graph
-2. Search for patterns between asset managers, companies, and risk factors
-3. Apply graph algorithms like Degree Centrality
-4. Identify key entities through visual analysis
-
-## Next Steps
-
-After completing this lab, continue to [Lab 2 - Aura Agents](../Lab_2_Aura_Agents) to build an AI-powered agent using the Neo4j Aura Agent no-code platform.
+Assuming that all looks good, let's move on...

@@ -1,85 +1,125 @@
-# Get Started with Neo4j Aura on Azure Marketplace
+# Lab 2 - Deploy Neo4j
 
-Follow these steps to subscribe to Neo4j Aura through the Azure Marketplace and create your first instance.
+There are a number of options for deploying Neo4j on Microsoft Marketplace:
 
-**Important:** Be sure to create your Aura instance in **US West** as shown in the configuration steps below.
+* [Neo4j Community Edition](https://marketplace.microsoft.com/en-us/product/neo4j.neo4j-ce)
+* [Neo4j Enterprise Edition](https://marketplace.microsoft.com/en-us/product/neo4j.neo4j-ee)
+* [Neo4j Aura (pay-as-you-go)](https://marketplace.microsoft.com/en-us/product/neo4j.neo4j-aura)
+* [Neo4j Aura (Annual)](https://marketplace.microsoft.com/en-us/product/neo4j.neo4j_aura)
 
-## Step 1: Access the Azure Marketplace
+CE and EE are self managed versions of the product.  The marketplace listing deploys infrastructure in your account, including virtual machines.  Scripts then install and configure Neo4j.
 
-Log in to the Azure Portal at [portal.azure.com](https://portal.azure.com). In the search bar at the top, type "marketplace" and select **Marketplace** from the results.
+Aura is a SaaS version of Neo4j.  That is managed entirely by Neo4j so no infrastructure administration is required.  We're going to use that version.  Specifically, we'll use the pay-as-you-go.  We only need the instance for a few hours, so an annual license would be rather excessive.
 
-![](images/Find_AMP.png)
+So, let's get started deploying...  Be sure your [Azure Portal](https://portal.azure.com/) is open from the last lab.  In the search bar, type "Neo4j Aura."
 
-## Step 2: Find Neo4j Aura Pay-as-You-Go
+![](images/01.png)
 
-In the Marketplace, search for "neo4j". From the results, locate and select **Neo4j AuraDB Professional (pay-as-you-go)**.
+Select the "Neo4j Aura" product.  That is the top result in this screenshot.
 
-![](images/AMP_AURA_PAY_GO.png)
+![](images/02.png)
 
-## Step 3: Subscribe to Neo4j AuraDB Professional
+This will take you to the Neo4j Aura marketplace listing.  The Vocareum organization we're part of has already subscribed to this listing.  If you were in an organization that had not subscribed you would see a "Subscribe" button.
 
-Click **Subscribe** on the "Aura PAYG" listing. Fill out the subscription form:
+Since we already have an active subscription, we can click "Manage on Provider."
 
-- **Subscription**: Select "Neo4j Workshops" 
-- **Resource group**: Select the resource group from the previous lab (it will match your username)
-- **Name**: Enter a memorable name for your SaaS resource
-- **Plan**: Aura PAYG - 1-month subscription
+![](images/03.png)
 
-Once you've filled these in, click "Review + subscribe" in the lower left corner.
+You'll see a dialog stating that we're leaving Microsoft Azure.  That is because we're punching out of the marketplace into the Neo4j Aura Console.  Click "OK."
 
-![](images/neo4j_paygo2.png)
+![](images/04.png)
 
-## Step 4: Configure Your Account
+We're now on the auth page for Neo4j Aura.  Click "Accept Cookies" to dismiss the dialog.
 
-After the subscription is created, click **Configure account now** to set up your Neo4j Aura account.
+![](images/05.png)
 
-![](images/ConfigureAccount.png)
+Neo4j supports a number of different auth providers, including Microsoft, GitHub and Google.  We've already authenticated with Microsoft for the console.  So, click on the "Continue with Microsoft" button to carry those credentials through to Neo4j Aura.
 
-## Step 5: Create Your Neo4j Aura Account
+![](images/06.png)
 
-You will be redirected to the Neo4j Aura login page. **Important: Do NOT use the "Continue with Microsoft" option!**
+Click on your Vocareum account name to continue.
 
-Instead, click **Sign up** and create a new account using your work email address. This ensures proper account linking with the Azure Marketplace subscription.
+![](images/07.png)
 
-**NOTE: If you already have a Neo4j Aura account on your work email address, then select the "Log in" link below instead and log in using your normal procedure.**
+Click "Continue."
 
-![](images/sign-up-aura2.png)
+![](images/08.png)
+
+Now we are in the Aura Console.  Click on "Microsoft marketplace project."
+
+![](images/09.png)
+
+You'll then be presented with a dialog to gather information about your use case.  For "Company / Institution" you can enter "Vocareum" and click "Next."
+
+Note that we're starting to build a labeled property graph describing our use case.
+
+![](images/10.png)
+
+Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
+
+![](images/11.png)
+
+Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
+
+![](images/12.png)
+
+Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
+
+![](images/13.png)
+
+We're now presented with a choice of product tiers within Neo4j:
+
+* Free
+* Business Critical
+* Professional
+
+The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select "Professional."
+
+![](images/14.png)
+
+Vocareum and Neo4j Aura are currently interacting in a somewhat undesirable manner.  The Neo4j Aura Organizations and Projects are viewable to everyone within this Vocareum course.  While each user has their own username and project, they all share a single billing account.  We're working on improving this.
+
+In the meantime, please name you instance using your Vocareum username.  That will allow you to distinguish your Neo4j Aura instances from those belonging to your classmates.
+
+In my case, I set my instance name to user1684365460481394.
+
+![](images/15.png)
+
+Now, let's inspect the other options.
 
 
-## Step 6: Select New Project
+![](images/16.png)
 
-Once logged into Neo4j Aura, click on New Project.
+We're going to load a fair about of data, so need to bump the amount of RAM from 4GB to 8GB.  Do that.
 
-![](images/aura_new_project)
+![](images/17.png)
 
-## Step 7: Create an Instance
+We can deploy in different regions.
 
-In the Aura console, navigate to **Instances** in the left sidebar. Click the **Create instance** button to start configuring your Neo4j database.
+There are two options for Graph Analytics.  This feature provides access to 60+ graph alogrithms.  These run across your graph, computing things like centrality and node importance.  We'll keep the default.  That spins up computations on demand.  Another option is to collocate it in the database.
 
-![](images/create_instance.png)
+Finally, there's an option to optimize the database for vector search.  We'll be using vector functionality but our workloads will be comparatively light so we don't need this optimization.
 
-## Step 8: Configure Your Professional Instance
+We've reached the bottom!  Click "Create Instance."
 
-Important! Please select Professional Instance
+![](images/18.png)
 
-Configure your Neo4j Aura instance with the following settings:
+You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-- **Tier**: Professional
-- **Instance name**: Choose a descriptive name (e.g., "Aura-Azure-Finance-Workshop")
-- **Cloud provider**: Azure
-- **Region**: **US West, Arizona** (required for this workshop)
-- **Memory & CPU**: Select **4GB Memory | 1 CPU**
-- **Graph Analytics**: Select **Plugin** (enables graph algorithms sharing memory with the database)
-- **Additional settings**: Check **Vector-optimized configuration** for GraphRAG and semantic search applications
+![](images/19.png)
 
-Click **Create** to provision your instance.
+A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/Aura_Create_Instance.png)
+![](images/20.png)
 
-**Important: Save Your Credentials!**
+You'll see a dialog that your database is being created. This should only take a few minutes.
 
-After clicking Create, a credentials dialog will appear containing your connection URI, username, and password. **Save this information immediately** - the password will not be available after you close this dialog. Click **Download and continue** to save the credentials file. You will need these credentials in later labs.
+![](images/21.png)
 
-![](images/Save_Credentials.png)
+When deployment is complete you'll see the instance details in the management console.  
 
-Your Neo4j Aura database is now ready to use!
+![](images/22.png)
+
+You can poke around the menus here a bit and see more on database status and connection information.
+
+You now have a deployment of Neo4j AuraDB Professional running!  In the next lab, we'll connect to it.

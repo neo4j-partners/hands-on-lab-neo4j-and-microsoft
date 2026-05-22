@@ -1,26 +1,29 @@
 # Lab 7 - MCP Tool
 
-https://neo4j.com/labs/genai-ecosystem/genai-frameworks/microsoft-foundry-mcp/
+Model Context Protocol (MCP) provides a standard interface for agents to speak with one another.  Neo4j has an open source [MCP server](https://github.com/neo4j/mcp).
 
-https://github.com/neo4j-labs/neo4j-agent-integrations/blob/main/microsoft-foundry/README.md
+Neo4j and Microsoft collaborated to build scripts exposing that MCP server in Microsoft Foundry.  Documentation on that is [here](https://neo4j.com/labs/genai-ecosystem/genai-frameworks/microsoft-foundry-mcp/).  The underlying code is [here](https://github.com/neo4j-labs/neo4j-agent-integrations/blob/main/microsoft-foundry/).
 
-git clone https://github.com/neo4j-labs/neo4j-agent-integrations.git
-cd neo4j-agent-integrations/microsoft-foundry/infra
+In this lab we'll use that.
 
-./deploy.sh
+To get started, open your Azure Portal.
 
-Does nothing.  ^c
+Open a cloud shell.
 
-azd auth login
+Clone the repo:
 
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ ^C
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ ^C
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ ^C
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ azd auth login
-Cloud Shell is automatically authenticated under the initial account used to sign in. Run 'azd auth login' only if you need to use a different account.
-To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code  to authenticate.
-Device code authentication completed.
-  Logged in to Azure as ben.lackey@neo4j.com
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ 
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ 
-ben [ ~/neo4j-agent-integrations/microsoft-foundry/infra ]$ ./deploy.sh 
+    git clone https://github.com/neo4j-labs/neo4j-agent-integrations.git
+    cd neo4j-agent-integrations
+
+Cd and run the deploy script.
+
+    cd microsoft-foundry/infra
+    ./deploy.sh
+
+That creates a number of resources.  Investigate those in the portal.
+
+Now let's run the server with:
+
+    ./test-mcp.sh "$(azd env get-value mcpEndpoint)”
+
+Now let's use the Foundry UI....

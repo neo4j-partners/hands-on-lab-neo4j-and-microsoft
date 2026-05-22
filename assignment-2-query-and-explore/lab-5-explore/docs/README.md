@@ -1,69 +1,81 @@
-# Exploring the Knowledge Graph
+# Lab 5 - Explore
 
-In this section, you will use Neo4j Explore to visually navigate and analyze your knowledge graph. You'll learn how to search for patterns, visualize relationships, and apply graph algorithms to gain insights from your data.
+In this lab, we'll use Explore, Neo4j's business intelligence (BI) tool, to explore our data.
 
-## Step 1: Access the Aura Console
+Click on the 'Explore' option in the left menu under Tools.
 
-Go back to the Neo4j Aura console at [console.neo4j.io](https://console.neo4j.io).
+![](images/01.png)
 
-## Step 2: Open Explore
+Now click on "Show me a graph."
 
-In the left sidebar, click on **Explore** under the Tools section. This opens Neo4j's visual graph exploration tool.
+![](images/02.png)
 
-![](images/Explore.png)
+In this case, we got a view with a manager and a company node in the middle and then some surrounding nodes.
 
-Click **Connect to instance** to connect to your database.
+We can mouse over the company to see its name.
 
-![](images/Connect_instance.png)
+![](images/03.png)
 
-## Step 3: Search for Asset Manager Relationships
+Now let's try finding a new graph.  Click in the search bar.
 
-In the search bar, build a pattern to explore the relationships between asset managers, companies, and risk factors. Type `AssetManager`, then select the **OWNS** relationship, followed by **Company**, then **FACES_RISK**, and finally **RiskFactor**.
+![](images/04.png)
 
-This creates the pattern: `AssetManager — OWNS → Company — FACES_RISK → RiskFactor`
+Select "Manager."
 
-![](images/asset_manager_owns.png)
+![](images/05.png)
 
-## Step 4: Visualize the Knowledge Graph
+Now select "OWNS."
 
-After executing the search, you'll see a visual representation of the knowledge graph. The graph shows AssetManager nodes (orange) connected to Company nodes (pink) through OWNS relationships, and Company nodes connected to RiskFactor nodes (yellow) through FACES_RISK relationships. The visualization reveals how different asset managers are exposed to various risk factors through the companies they own.
+![](images/06.png)
 
-![](images/company_graph.png)
+Now select "Company"
 
-**Tips for Exploring:**
+![](images/07.png)
 
-*Zoom and Pan*
-- **Zoom**: Scroll wheel or pinch gesture
-- **Pan**: Click and drag the canvas
-- **Center**: Double-click on empty space
+Now hit press return.
 
-*Inspect Nodes and Relationships*
-- Click on a node to see its properties
-- Click on a relationship to see its type
-- Expand nodes to see more connections
+![](images/08.png)
 
-## Step 5: Access Graph Data Science
+That gives us search results for paths that go from Manager to Company.  We hit a limit of 1000, so it's not visualizing everything.
 
-To analyze the graph structure, click on the **Graph Data Science** button in the left toolbar. This opens the data science panel where you can apply graph algorithms.
+Next, we will apply some point-and-click data science to our graph.  Click on the atom icon to open the data science menu.
 
-![](images/graph_data_science.png)
+![](images/09.png)
 
-## Step 6: Apply Degree Centrality Algorithm
+Click "+ Add" to add an algorithm.
 
-Click **Add algorithm** and select **Degree Centrality** from the dropdown. This algorithm measures the number of incoming and outgoing relationships for each node, helping identify the most connected nodes in your graph.
+![](images/10.png)
 
-Click **Apply algorithm** to run the analysis.
+Click on "Select" to open the algorithm drop down.
 
-![](images/degree_centrality.png)
+![](images/11.png)
 
-## Step 7: Size Nodes Based on Scores
+Select "Degree Centrality."
 
-After the algorithm completes, you'll see a notification showing how many scores were added. Click **Size nodes based on scores** to visually represent the centrality - nodes with more connections will appear larger.
+![](images/12.png)
 
-![](images/size_nodes.png)
+Click "Apply."
 
-## Step 8: Analyze the Results
+![](images/13.png)
 
-The graph now displays nodes sized according to their degree centrality scores. Asset managers (pink/salmon nodes) that own more companies appear larger, making it easy to visually identify the most significant institutional investors in your dataset.
+This spins up an additional ephemeral instance running Neo4j Graph Analytics.  That takes a few minutes.
 
-![](images/degree_centality_graph.png)
+![](images/14.png)
+
+Once it is running, we see this view.  We can choose how we want to visualize the results in the graph.  
+
+Choose "Size scaling."
+
+![](images/15.png)
+
+That gives us this.  The more central nodes in our graph are now shown as larger.
+
+We can close the data science panel to get a better view.  Do that by clicking the icon above "Analytics Session Running."
+
+![](images/16.png)
+
+That gives us a better view of the differently sized nodes.
+
+![](images/17.png)
+
+These are just a few examples of what you can do with Bloom.  Feel free to explore!
