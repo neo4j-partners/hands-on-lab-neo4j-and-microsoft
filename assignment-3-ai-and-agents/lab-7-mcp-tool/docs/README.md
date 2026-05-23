@@ -55,6 +55,11 @@ This directory contains some deployment scripts, a README and some underlying co
 
 ![](images/10.png)
 
+
+That runs for 5? minutes.
+
+![](images/11.png)
+
 That creates a number of resources.  Investigate those in the portal.
 
 Now let's run the server with:
