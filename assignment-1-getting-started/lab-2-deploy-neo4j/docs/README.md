@@ -15,57 +15,102 @@ So, let's get started deploying...  Be sure your [Azure Portal](https://portal.a
 
 ![](images/01.png)
 
-Select the "Neo4j Aura" product.  That is the top result in this screenshot.
+There are two options for Neo4j Aura.  One is pay-as-you-go.  That means there is an hourly charge for the product.  
+
+The other is Annual.  That is an annual contract.
+
+Select the "Neo4j Aura (pay-as-you-go)" product.  That is the top result in this screenshot.
 
 ![](images/02.png)
 
-This will take you to the Neo4j Aura marketplace listing.  The Vocareum organization we're part of has already subscribed to this listing.  If you were in an organization that had not subscribed you would see a "Subscribe" button.
+This will take you to the Neo4j Aura (pay-as-you-go) marketplace listing.  
 
-Since we already have an active subscription, we can click "Manage on Provider."
+Dismiss the "New auto activation" dialog.
 
 ![](images/03.png)
 
-You'll see a dialog stating that we're leaving Microsoft Azure.  That is because we're punching out of the marketplace into the Neo4j Aura Console.  Click "OK."
+We're going to need a resource group to hold our new subscription to Neo4j Aura (pay-as-you-go).  Click "Create new."
 
 ![](images/04.png)
 
-We're now on the auth page for Neo4j Aura.  Click "Accept Cookies" to dismiss the dialog.
+Enter "neo4j-aura-subscription" as the name of the resource group.
 
 ![](images/05.png)
 
-Neo4j supports a number of different auth providers, including Microsoft, GitHub and Google.  We've already authenticated with Microsoft for the console.  So, click on the "Continue with Microsoft" button to carry those credentials through to Neo4j Aura.
+Click "OK."
 
 ![](images/06.png)
 
-Click on your Vocareum account name to continue.
+Now we need a name for the SaaS subcription object.  Let's use the same as the resource group name.  Enter "neo4j-aura-subscription"
 
 ![](images/07.png)
 
-Click "Continue."
+That's it for required details.  We could click next through the wizard.  However, since all required fields are complete, instead click "Review + subscribe."
 
 ![](images/08.png)
 
-Now we are in the Aura Console.  Click on "Microsoft marketplace project."
+Dismiss the "Our invoicing policy has been updated" dialog.
 
 ![](images/09.png)
+
+Click "Subscribe."
+
+![](images/10.png)
+
+The subscription takes about a minute to run.
+
+![](images/11.png)
+
+When complete you should see the following.  Click "Configure your account."  This will "punch out" from the Azure Portal into the Neo4j Aura Console.
+
+![](images/12.png)
+
+Click "Accept Cookies"
+
+![](images/13.png)
+
+Neo4j supports a number of different auth providers, including Microsoft, GitHub and Google.  We've already authenticated with Microsoft for the console.  So, click on the "Continue with Microsoft" button to carry those credentials through to Neo4j Aura.
+
+![](images/14.png)
+
+Click "Accept."
+
+![](images/15.png)
+
+
+## To do ....
+
+We currently have an error due to auth....
+
+Click on your Vocareum account name to continue.
+
+![](images/16.png)
+
+Click "Continue."
+
+![](images/17.png)
+
+Now we are in the Aura Console.  Click on "Microsoft marketplace project."
+
+![](images/18.png)
 
 You'll then be presented with a dialog to gather information about your use case.  For "Company / Institution" you can enter "Vocareum" and click "Next."
 
 Note that we're starting to build a labeled property graph describing our use case.
 
-![](images/10.png)
+![](images/19.png)
 
 Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
 
-![](images/11.png)
+![](images/20.png)
 
 Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
 
-![](images/12.png)
+![](images/21.png)
 
 Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
 
-![](images/13.png)
+![](images/22.png)
 
 We're now presented with a choice of product tiers within Neo4j:
 
@@ -75,24 +120,15 @@ We're now presented with a choice of product tiers within Neo4j:
 
 The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select "Professional."
 
-![](images/14.png)
-
-Vocareum and Neo4j Aura are currently interacting in a somewhat undesirable manner.  The Neo4j Aura Organizations and Projects are viewable to everyone within this Vocareum course.  While each user has their own username and project, they all share a single billing account.  We're working on improving this.
-
-In the meantime, please name you instance using your Vocareum username.  That will allow you to distinguish your Neo4j Aura instances from those belonging to your classmates.
-
-In my case, I set my instance name to user1684365460481394.
-
-![](images/15.png)
+![](images/23.png)
 
 Now, let's inspect the other options.
 
-
-![](images/16.png)
+![](images/25.png)
 
 We're going to load a fair about of data, so need to bump the amount of RAM from 4GB to 8GB.  Do that.
 
-![](images/17.png)
+![](images/26.png)
 
 We can deploy in different regions.
 
@@ -102,23 +138,23 @@ Finally, there's an option to optimize the database for vector search.  We'll be
 
 We've reached the bottom!  Click "Create Instance."
 
-![](images/18.png)
+![](images/27.png)
 
 You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-![](images/19.png)
+![](images/28.png)
 
 A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/20.png)
+![](images/29.png)
 
 You'll see a dialog that your database is being created. This should only take a few minutes.
 
-![](images/21.png)
+![](images/30.png)
 
 When deployment is complete you'll see the instance details in the management console.  
 
-![](images/22.png)
+![](images/31.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
