@@ -2,13 +2,13 @@
 
 Document Intelligence is a new tool within Neo4j Aura.  It's currently in a private preview.  We've enabled your account for this lab with it.
 
-Document Intelligence transforms documents into knowledge graphs stored in Neo4j.  It's an evolution of an approach Neo4j has been pioneering with AI since 2022.  Early integrations focused on using [Langchain to build these architectures](https://cloud.google.com/blog/topics/partners/build-intelligent-apps-with-neo4j-and-google-generative-ai).  Many of our customers using AI to create knowledge graph continue to use this approach.  It's code heavy and deeply customizable.
+Document Intelligence transforms documents into knowledge graphs stored in Neo4j.  It's an evolution of an approach Neo4j has been pioneering with AI since 2022.  Early integrations focused on using [Langchain to build these architectures](https://www.youtube.com/watch?v=3PO-erAP6R4&list=PLG3nTnYVz3nya8Me9-Xj9vEuLYIOk03ba&index=8).  Many of our customers using AI to create knowledge graph continue to use this approach.  It's code heavy and deeply customizable.
 
 More recently Neo4j Labs, our experimental department, built a [LLM Graph Builder application](https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/) that packaged this approach in a nice UI.
 
 Document Intelligence is the next evolution of this, built into our Neo4j Aura product.
 
-First off, download [this pdf](https://storage.googleapis.com/neo4j-datasets/hands-on-lab/Apple_10-K_2025_2_pages.pdf) and take a peek at it.  It's 2 pages of the 2025 10-K filed by Apple.  We're going to generate a knowledge graph from it.
+First off, download [this pdf](https://neo4jdatasets.blob.core.windows.net/handsonlab/Apple_10-K_2025_2_pages.pdf) and take a peek at it.  It's 2 pages of the 2025 10-K filed by Apple.  We're going to generate a knowledge graph from it.
 
 ![](images/01.png)
 
