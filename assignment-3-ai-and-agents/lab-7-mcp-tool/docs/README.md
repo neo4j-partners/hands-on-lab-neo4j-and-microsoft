@@ -258,6 +258,7 @@ Hit enter.
 
 Whoops.  Error.
 
+![](images/48.png)
 
 Try:
 
