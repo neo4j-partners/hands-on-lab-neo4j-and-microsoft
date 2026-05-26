@@ -142,13 +142,19 @@ That should give this:
 
 Well, this is cool.  We've got all our nodes loaded in.  Now we need to tie them together with relationships.  In this case we only need one kind of relationship.  A manager "OWNS" a company.
 
+Because there are a lot of relationships, we're going to batch them.  That will avoid big memory allocations, making this query run more predicably and within the allocated heap.
+
 So, let's add the relationships.
 
     LOAD CSV WITH HEADERS FROM 'https://neo4jdatasets.blob.core.windows.net/handsonlab/form13-2023.csv' AS row
-    MATCH (m:Manager {managerName:row.managerName})
-    MATCH (c:Company {cusip:row.cusip})
-    MERGE (m)-[r:OWNS {reportCalendarOrQuarter:date(row.reportCalendarOrQuarter)}]->(c)
-    SET r.value = toFloat(row.value), r.shares = toInteger(row.shares);
+    CALL (row) {
+        MATCH (m:Manager {managerName: row.managerName})
+        MATCH (c:Company {cusip: row.cusip})
+        MERGE (m)-[r:OWNS {reportCalendarOrQuarter: date(row.reportCalendarOrQuarter)}]->(c)
+        SET r.value = toFloat(row.value),
+        r.shares = toInteger(row.shares)
+    }
+    IN TRANSACTIONS OF 1000 ROWS;
 
 This will run for about 2-5 minutes.  When complete, you should see this:
 
