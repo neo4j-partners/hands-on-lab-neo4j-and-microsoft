@@ -5,55 +5,55 @@ Let's investigate our deployment in the portal.
 1. Open [https://ai.azure.com/](https://ai.azure.com/).
 2. Click "Sign in" in the upper right.
 
-![](images/21.png)
+![](images/01.png)
 
 Dismiss the pop up.
 
-![](images/22.png)
+![](images/02.png)
 
 You should see the project that our deploy script created.  In this case it is proj-foundry-neo4j-demo.  Click on that project to open it.
 
-![](images/23.png)
+![](images/03.png)
 
 Click the slider by "New Foundry" to go back to the previous UI version.
 
-![](images/24.png)
+![](images/04.png)
 
 Click "Continue without feedback."
 
-![](images/25.png)
+![](images/05.png)
 
 Click "Agents" in the left menu.
 
-![](images/26.png)
+![](images/06.png)
 
 Click "Fix Me" to fix the role.
 
-![](images/27.png)
+![](images/07.png)
 
 Click "X" to close the menu once it says it is fixed.
 
-![](images/28.png)
+![](images/08.png)
 
 Click "New agent."
 s
-![](images/29.png)
+![](images/09.png)
 
 Click "Create new agent."
 
-![](images/30.png)
+![](images/10.png)
 
 Enter the name "neo4j-research-agent"
 
-![](images/31.png)
+![](images/11.png)
 
 Click "Create."
 
-![](images/32.png)
+![](images/12.png)
 
 That will take a moment to run.
 
-![](images/33.png)
+![](images/13.png)
 
 For instructions enter:
 
@@ -90,31 +90,31 @@ For instructions enter:
     prior knowledge. If read-cypher returns nothing, reply "the graph doesn't
     contain that". Use modern Cypher (`WHERE x IS NOT NULL`).`
 
-![](images/34.png)
+![](images/14.png)
 
 Now click "Add."
 
-![](images/35.png)
+![](images/15.png)
 
 Click "Browse all tools."
 
-![](images/36.png)
+![](images/16.png)
 
 Click "Custom."
 
-![](images/37.png)
+![](images/17.png)
 
 Click "Model Context Protocol (MCP)"
 
-![](images/38.png)
+![](images/18.png)
 
 Click "Create."
 
-![](images/39.png)
+![](images/19.png)
 
 We're going to need to fill out these values.
 
-![](images/40.png)
+![](images/20.png)
 
 First, we're going to need a value from our Cloud Shell.  Back in there run:
 
@@ -123,7 +123,7 @@ First, we're going to need a value from our Cloud Shell.  Back in there run:
 
 Make a note of NEO4J_MCP_ENDPOINT.  In this case it was https://ca-foundry-neo4j-demo.blackcoast-f5039cd1.swedencentral.azurecontainerapps.io/mcp
 
-![](images/41.png)
+![](images/21.png)
 
 Ok.  Now back in the Foundry UI, let's enter the following values:
 
@@ -133,32 +133,32 @@ Ok.  Now back in the Foundry UI, let's enter the following values:
 
 Click "Add key value pair."
 
-![](images/42.png)
+![](images/22.png)
 
 Enter the values:
 
 * Authorization
 * Basic Y29tcGFuaWVzOmNvbXBhbmllcw==
 
-![](images/43.png)
+![](images/23.png)
 
 Click "Connect."
 
-![](images/44.png)
+![](images/24.png)
 
 Click "Save."
 
-![](images/45.png)
+![](images/25.png)
 
 In the "Message the agent..." field type:
 
     Tell me about Microsoft — what industry it competes in, who runs it, and where it's headquartered.
 
-![](images/46.png)
+![](images/26.png)
 
 Hit enter.
 
-![](images/47.png)
+![](images/27.png)
 
 Now let's try a different command:
 
