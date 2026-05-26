@@ -57,7 +57,8 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation
   * Using Foundry with Neo4j
-* Lab 6 - Document Intelligence (20 min)
-* Lab 7 - MCP Tool (20 min)
-* Lab 9 - Aura Agent (20 min)
+* Lab 6 - Document Intelligence (15 min)
+* Lab 7 - Deploy Foundry (15 min)
+* Lab 8 - Use Foundry (15 min)
+* Lab 9 - Aura Agent (15 min)
 * Questions and Next Steps (5 min)
