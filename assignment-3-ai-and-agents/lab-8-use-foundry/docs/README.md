@@ -138,7 +138,7 @@ Click "Add key value pair."
 Enter the values:
 
 * Authorization
-* Y29tcGFuaWVzOmNvbXBhbmllcw==
+* Basic Y29tcGFuaWVzOmNvbXBhbmllcw==
 
 ![](images/43.png)
 
@@ -160,14 +160,12 @@ Hit enter.
 
 ![](images/47.png)
 
-Whoops.  Error.
-
-![](images/48.png)
-
-Try:
+Now let's try a different command:
 
     Find three companies that compete in the same industry as Microsoft.
 
-Try:
+Here's another command to try:
 
     What recent articles mention Microsoft, and what topics do they cover?
+
+Feel free to explore and try your own ideas too!
