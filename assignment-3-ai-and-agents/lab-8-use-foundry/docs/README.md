@@ -1,6 +1,6 @@
 # Lab 8 - Use Foundry
 
-Let's investigate our deployment in the portal.  
+Let's investigate our deployment in the Foundry portal.  
 
 1. Open [https://ai.azure.com/](https://ai.azure.com/).
 2. Click "Sign in" in the upper right.
@@ -36,7 +36,7 @@ Click "X" to close the menu once it says it is fixed.
 ![](images/08.png)
 
 Click "New agent."
-s
+
 ![](images/09.png)
 
 Click "Create new agent."
@@ -114,51 +114,40 @@ Click "Create."
 
 We're going to need to fill out these values.
 
+* Name - neo4j-mcp
+* Remote MCP Server endpoint - value from last lab
+* Authentication - Key based
+
 ![](images/20.png)
 
-First, we're going to need a value from our Cloud Shell.  Back in there run:
-
-    cd ..
-    cat .env
-
-Make a note of NEO4J_MCP_ENDPOINT.  In this case it was https://ca-foundry-neo4j-demo.blackcoast-f5039cd1.swedencentral.azurecontainerapps.io/mcp
+Then click "Add key value pair."
 
 ![](images/21.png)
 
-Ok.  Now back in the Foundry UI, let's enter the following values:
-
-* Name - neo4j-mcp
-* Remote MCP Server endpoint - value from last step
-* Authentication - Key based
-
-Click "Add key value pair."
-
-![](images/22.png)
-
-Enter the values:
+For the key/value pair, enter the values:
 
 * Authorization
 * Basic Y29tcGFuaWVzOmNvbXBhbmllcw==
 
-![](images/23.png)
+![](images/22.png)
 
 Click "Connect."
 
-![](images/24.png)
+![](images/23.png)
 
 Click "Save."
 
-![](images/25.png)
+![](images/24.png)
 
 In the "Message the agent..." field type:
 
     Tell me about Microsoft — what industry it competes in, who runs it, and where it's headquartered.
 
-![](images/26.png)
+![](images/25.png)
 
 Hit enter.
 
-![](images/27.png)
+![](images/26.png)
 
 Now let's try a different command:
 
