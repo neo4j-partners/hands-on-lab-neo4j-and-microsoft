@@ -98,7 +98,7 @@ For instructions enter:
 
 ![](images/15.png)
 
-Now click "Add."
+Now under tools click "Add."
 
 ![](images/16.png)
 
