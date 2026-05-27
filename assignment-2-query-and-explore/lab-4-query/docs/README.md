@@ -63,7 +63,7 @@ We can also click on the relationship, that is the line between the nodes to see
 
 ![](images/08.png)
 
-In this case, it appears we have a report from 2023-03-31 that 3008 shares were purchased with a value of 310,715,000.  That number of shares is almost certainly missing some zeroes.  Sometimes these regulatory filings have significant quality challenges.  It seems we've just uncovered one!
+In this case, it appears we have a report from 2023-03-31 that shares: 35,014 shares were purchased with a value of value: 5,427,173,000.  That number of shares is almost certainly missing some zeroes or the value is incorrect.  Sometimes these regulatory filings have significant quality challenges.  It seems we've just uncovered one!
 
 At this point, take some time to poke around the graph.  You can expand it by clicking the icon with two arrows pointing away from each other in the upper right.  
 
@@ -156,7 +156,7 @@ So, let's add the relationships.
     }
     IN TRANSACTIONS OF 1000 ROWS;
 
-This will run for about 2 minutes.  When complete, you should see this:
+This will run for about 90 seconds.  When complete, you should see this:
 
 ![](images/19.png)
 
