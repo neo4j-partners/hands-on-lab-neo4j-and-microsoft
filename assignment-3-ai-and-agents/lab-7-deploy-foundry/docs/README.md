@@ -4,8 +4,6 @@ Model Context Protocol (MCP) provides a standard interface for agents to speak w
 
 Neo4j and Microsoft collaborated to build scripts exposing that MCP server in Microsoft Foundry.  Documentation on that is [here](https://neo4j.com/labs/genai-ecosystem/genai-frameworks/microsoft-foundry-mcp/).  The underlying code is [here](https://github.com/neo4j-labs/neo4j-agent-integrations/blob/main/microsoft-foundry/).
 
-In this lab we'll use that.
-
 To get started, open your [Azure Portal](https://portal.azure.com/).
 
 Click the terminal icon in the top blue menu.  It is to the right of "Copilot."  That will open a cloud shell.
@@ -46,6 +44,7 @@ Now let's cd into the Microsoft Foundry directory and see what we have in there.
 
     cd neo4j-agent-integrations
     cd microsoft-foundry/infra
+    ls
 
 ![](images/09.png)
 
@@ -97,8 +96,10 @@ This creates a fair amount of output.  One useful bit is a suggestion to run a s
 
 If everything is deployed well, you should see a message like this.
 
+Be sure to make a note of the Endpoint as you will need it later.  In this case it was: https://ca-foundry-neo4j-demo.blackcoast-f5039cd1.swedencentral.azurecontainerapps.io/mcp.
+
 ![](images/20.png)
 
-To do -- investigate in Azure Portal...
+You can look at the deployed resources in the Azure Portal if you like.  
 
 In this lab we created a Foundry project.  We deployed the Neo4j MCP server.  In the next lab we'll use the Foundry UI to create an agent on top of it.
