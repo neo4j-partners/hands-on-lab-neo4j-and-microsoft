@@ -88,7 +88,11 @@ Select your subscription.  In my case it was called "Neo4j Subscription 32"
 
 ![](images/18.png)
 
-This creates a fair amount of output.  One useful bit is a suggestion to run a smoke test.  Let's try that.  A generic version of the command is:
+This creates a fair amount of output.  
+
+Be sure to make a note of the Endpoint as you will need it in the next lab.  In this case it was: https://ca-foundry-neo4j-demo.jollyocean-6151e4e7.swedencentral.azurecontainerapps.io/mcp.
+
+One useful bit is a suggestion to run a smoke test.  Let's try that.  A generic version of the command is:
 
     ./test-mcp.sh "$(azd env get-value mcpEndpoint)"
 
@@ -96,10 +100,20 @@ This creates a fair amount of output.  One useful bit is a suggestion to run a s
 
 If everything is deployed well, you should see a message like this.
 
-Be sure to make a note of the Endpoint as you will need it later.  In this case it was: https://ca-foundry-neo4j-demo.blackcoast-f5039cd1.swedencentral.azurecontainerapps.io/mcp.
+Now let's look at the deployed resources.  Click the line in the upper right to minimize the Cloud Shell.
 
 ![](images/20.png)
 
-You can look at the deployed resources in the Azure Portal if you like.  
+Click on "Resource Groups."
+
+![](images/21.png)
+
+Click on "rg-foundry-neo4j-demo."
+
+![](images/22.png)
+
+We can see a number of resources were created.  There's a Foundry project.  We'll use that in the next lab.  Then there is a container app hosting our MCP server.
+
+![](images/23.png)
 
 In this lab we created a Foundry project.  We deployed the Neo4j MCP server.  In the next lab we'll use the Foundry UI to create an agent on top of it.
