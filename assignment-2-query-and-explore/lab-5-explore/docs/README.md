@@ -54,7 +54,7 @@ Select "Degree Centrality."
 
 ![](images/12.png)
 
-Click "Apply."
+Click "Apply algorithm."
 
 ![](images/13.png)
 
@@ -68,7 +68,7 @@ Choose "Size scaling."
 
 ![](images/15.png)
 
-That gives us this.  The more central nodes in our graph are now shown as larger.
+The more central nodes in our graph are now shown as larger.
 
 We can close the data science panel to get a better view.  Do that by clicking the icon above "Analytics Session Running."
 
