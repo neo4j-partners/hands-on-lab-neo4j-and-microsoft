@@ -1,6 +1,6 @@
 # Lab 4 - Query
 
-In this lab, we're going to take data from a Google Cloud Storage bucket and import it into Neo4j.  There are a few different ways to do this.  We'll start with a very naive LOAD CSV statement and then improve it.  
+In this lab, we're going to take data from Azure Blob Storage and import it into Neo4j.  There are a few different ways to do this.  We'll start with a very naive LOAD CSV statement and then improve it.  
 
 The Neo4j Data Importer is another option.  It's a great graphical way to import data.
 
@@ -156,7 +156,7 @@ So, let's add the relationships.
     }
     IN TRANSACTIONS OF 1000 ROWS;
 
-This will run for about 2-5 minutes.  When complete, you should see this:
+This will run for about 2 minutes.  When complete, you should see this:
 
 ![](images/19.png)
 
