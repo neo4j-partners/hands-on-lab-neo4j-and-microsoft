@@ -69,48 +69,63 @@ Click "Accept Cookies"
 
 ![](images/13.png)
 
-Neo4j supports a number of different auth providers, including Microsoft, GitHub and Google.  We've already authenticated with Microsoft for the console.  So, click on the "Continue with Microsoft" button to carry those credentials through to Neo4j Aura.
+Neo4j supports a number of different auth providers, including Microsoft, GitHub and Google.  We've already authenticated with Microsoft for the console.
+
+At this point you would understably want to use the Microsoft provider.  However the Vocareum account we're using doesn't have an email address associated with it.  Neo4j Aura requires an email.  So that provider will not work.
+
+Instead, enter an email address of yours in the top field, "Email address (Business preferred)."
 
 ![](images/14.png)
 
-Click "Accept."
+Click "Continue."
 
 ![](images/15.png)
 
-
-## To do ....
-
-We currently have an error due to auth....
-
-Click on your Vocareum account name to continue.
+You should see a message saying to check your email.  Do so.
 
 ![](images/16.png)
 
-Click "Continue."
+The email looks like this.  Copy the code.
 
 ![](images/17.png)
 
-Now we are in the Aura Console.  Click on "Microsoft marketplace project."
+Paste it back in the form.
+
+![](images/17.png)
+
+Click "Continue."
 
 ![](images/18.png)
 
-You'll then be presented with a dialog to gather information about your use case.  For "Company / Institution" you can enter "Vocareum" and click "Next."
-
-Note that we're starting to build a labeled property graph describing our use case.
+Enter a password for your account.
 
 ![](images/19.png)
 
-Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
+Click "Sign up."
 
 ![](images/20.png)
 
-Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
+You'll then be presented with a dialog to gather information about your use case.  Enter your information.
+
+Note that we're starting to build a labeled property graph describing our use case.
 
 ![](images/21.png)
 
-Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
+Click "Next."
 
 ![](images/22.png)
+
+Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
+
+![](images/23.png)
+
+Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
+
+![](images/24.png)
+
+Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
+
+![](images/25.png)
 
 We're now presented with a choice of product tiers within Neo4j:
 
@@ -120,15 +135,13 @@ We're now presented with a choice of product tiers within Neo4j:
 
 The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select "Professional."
 
-![](images/23.png)
+Note that since we punched of the Microsoft Marketplace, we carried along a payment mechanism from our Vocareum accont.  You will not be charged personally for the usage of Neo4j Aura today.  Instead that will be billed to Vocareum through the Microsoft Marketplace.
+
+![](images/26.png)
 
 Now, let's inspect the other options.
 
-![](images/25.png)
-
-We're going to load a fair about of data, so need to bump the amount of RAM from 4GB to 8GB.  Do that.
-
-![](images/26.png)
+![](images/27.png)
 
 We can deploy in different regions.
 
@@ -138,23 +151,23 @@ Finally, there's an option to optimize the database for vector search.  We'll be
 
 We've reached the bottom!  Click "Create Instance."
 
-![](images/27.png)
+![](images/28.png)
 
 You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-![](images/28.png)
+![](images/29.png)
 
 A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/29.png)
+![](images/30.png)
 
 You'll see a dialog that your database is being created. This should only take a few minutes.
 
-![](images/30.png)
+![](images/31.png)
 
 When deployment is complete you'll see the instance details in the management console.  
 
-![](images/31.png)
+![](images/32.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
