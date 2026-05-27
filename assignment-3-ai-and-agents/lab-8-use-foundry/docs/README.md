@@ -7,53 +7,59 @@ Let's investigate our deployment in the Foundry portal.
 
 ![](images/01.png)
 
-Dismiss the pop up.
+Select your project.
 
 ![](images/02.png)
 
-You should see the project that our deploy script created.  In this case it is proj-foundry-neo4j-demo.  Click on that project to open it.
+You should see the project that our deploy script created.  In this case it is proj-foundry-neo4j-demo.  
+
+Note that "Create agents" is grayed out.  That is because a role is disabled.  Click the slider by "New Foundry" to go back to the previous UI version.
 
 ![](images/03.png)
 
-Click the slider by "New Foundry" to go back to the previous UI version.
+Click "Continue without feedback."
 
 ![](images/04.png)
 
-Click "Continue without feedback."
+Click "Agents" in the left menu.
 
 ![](images/05.png)
 
-Click "Agents" in the left menu.
+Click "Fix Me" to fix the role.
 
 ![](images/06.png)
 
-Click "Fix Me" to fix the role.
+Click "X" to close the menu once it says it is fixed.
 
 ![](images/07.png)
 
-Click "X" to close the menu once it says it is fixed.
+Click "New agent."
 
 ![](images/08.png)
 
-Click "New agent."
+Click "Create new agent."
 
 ![](images/09.png)
 
-Click "Create new agent."
+If you've done this quickly, you may see an error that "You don't have permission to build agents in this project."  You can try refreshing or waiting for it to go away.
 
 ![](images/10.png)
 
-Enter the name "neo4j-research-agent"
+Once the screen loads properly you should see the following.  Click "Create agent."
 
 ![](images/11.png)
 
-Click "Create."
+Enter the name "neo4j-research-agent"
 
 ![](images/12.png)
 
-That will take a moment to run.
+Click "Create and open playground."
 
 ![](images/13.png)
+
+That will take a moment to run.
+
+![](images/14.png)
 
 For instructions enter:
 
@@ -90,37 +96,33 @@ For instructions enter:
     prior knowledge. If read-cypher returns nothing, reply "the graph doesn't
     contain that". Use modern Cypher (`WHERE x IS NOT NULL`).`
 
-![](images/14.png)
+![](images/15.png)
 
 Now click "Add."
 
-![](images/15.png)
+![](images/16.png)
 
 Click "Browse all tools."
 
-![](images/16.png)
+![](images/17.png)
 
 Click "Custom."
 
-![](images/17.png)
+![](images/18.png)
 
 Click "Model Context Protocol (MCP)"
 
-![](images/18.png)
+![](images/19.png)
 
 Click "Create."
 
-![](images/19.png)
+![](images/20.png)
 
 We're going to need to fill out these values.
 
 * Name - neo4j-mcp
-* Remote MCP Server endpoint - value from last lab
+* Remote MCP Server endpoint - value from last lab (note if you don't have this, you can open your Cloud Shell and run cat neo4j-agent-integrations/microsoft-foundry/.env to get it)
 * Authentication - Key based
-
-![](images/20.png)
-
-Then click "Add key value pair."
 
 ![](images/21.png)
 
@@ -135,26 +137,38 @@ Click "Connect."
 
 ![](images/23.png)
 
-Click "Save."
-
-![](images/24.png)
-
 In the "Message the agent..." field type:
 
     Tell me about Microsoft — what industry it competes in, who runs it, and where it's headquartered.
 
-![](images/25.png)
+![](images/24.png)
 
 Hit enter.
 
+![](images/25.png)
+
+Click "Approve."
+
 ![](images/26.png)
+
+Click "Always approve this tool."
+
+![](images/27.png)
+
+That gives this result.
+
+![](images/28.png)
 
 Now let's try a different command:
 
     Find three companies that compete in the same industry as Microsoft.
 
+![](images/29.png)
+
 Here's another command to try:
 
     What recent articles mention Microsoft, and what topics do they cover?
+
+![](images/30.png)
 
 Feel free to explore and try your own ideas too!
