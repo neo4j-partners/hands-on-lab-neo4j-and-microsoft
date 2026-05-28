@@ -171,4 +171,9 @@ Here's another command to try:
 
 ![](images/30.png)
 
+It does appear the agent is using data from Bing, not just the database underlying the MCP server.  We can try to avoid that in two ways:
+
+1. Disable Bing in the Foundry UI
+2. Modify the prompt, adding text like "Use only the MCP server for results."
+
 Feel free to explore and try your own ideas too!
