@@ -456,6 +456,528 @@ assignments:
               - Assignments
           tags: []
 publish_history:
+  - timestamp: '2026-05-28T00:07:12.318Z'
+    commit_sha: 905506f
+    published_by: Ben Lackey
+    status: success
+    content_state:
+      assignment-1-getting-started/lecture-introduction-to-neo4j/docs: cb26593550cd2f0705a0612afae3fe68ba1f32e357ae9cc2300505f7be58cec3
+      assignment-1-getting-started/lecture-introduction-to-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lecture-introduction-to-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lecture-introduction-to-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lecture-introduction-to-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/docs: 9c47fdef75f0e865c370729128040a9ea36cf87c8312602707a2bc0b947b64d0
+      assignment-1-getting-started/lab-1-sign-in/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-1-sign-in/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs: d15faca76cd2b82b00c4e0cbab7158a553229ed552b659bbdaf7374c8df4be29
+      assignment-1-getting-started/lab-2-deploy-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-2-deploy-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs: 23dde82220a06fc2644c65a33f156cbdf2e87a79122d85339393549d68121b4c
+      assignment-1-getting-started/lab-3-connect-to-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-3-connect-to-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lecture-moving-data/docs: 77f219e1a5750a7734450cc48f2d3b7cdf276735f88ce8500ab2149438b97135
+      assignment-2-query-and-explore/lecture-moving-data/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-query-and-explore/lecture-moving-data/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lecture-moving-data/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lecture-moving-data/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-4-query/docs: c17331a9b5f52827b8dc21a56440665f9120761499b13d2aec7e05081e1880a3
+      assignment-2-query-and-explore/lab-4-query/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-query-and-explore/lab-4-query/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-4-query/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-4-query/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-5-explore/docs: 56b9eb074fb139644687a898934604cb47a40304ba38c233ad4f823208e9d1fc
+      assignment-2-query-and-explore/lab-5-explore/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-query-and-explore/lab-5-explore/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-5-explore/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-5-explore/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-foundry/docs: bcf6f1f42ef409d819cfc2bdafb877efb2e06689c04a11ed30a2caa676df82b4
+      assignment-3-ai-and-agents/lecture-foundry/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-foundry/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-foundry/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-foundry/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/docs: b61c5fa2b1f71ac8b5a5c5782a71776e30bbbe097cff744c7fa5aeb192a01036
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs: 33daeec89b63e2f6f21b2a03f40c92c72ae78600816eac1de894e7a96308cde1
+      assignment-3-ai-and-agents/lab-6-document-intelligence/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-6-document-intelligence/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs: 40299d5e2e930e27547b72983453030611c3decb5b6738168f16bf17b9ff0a74
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs: 1eebfda934d0503945af3363b6abfa9e0e3bcfc8826c2781c07b5a8e84924159
+      assignment-3-ai-and-agents/lab-8-use-foundry/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-foundry/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-foundry/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-foundry/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs: 204c9cc7bc44046619e6661a8e9c6a1f88f1fb96b2824ddcbfae1ec0edb36fc3
+      assignment-3-ai-and-agents/lab-9-aura-agent/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-9-aura-agent/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agent/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agent/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/questions-and-next-steps/docs: d3b05d4bc468d602f8574c84ac43f7ab87936ef74f0cde9746dcd0c0735f1b40
+      assignment-3-ai-and-agents/questions-and-next-steps/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/questions-and-next-steps/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/questions-and-next-steps/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/questions-and-next-steps/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      cloud-environment/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+    file_size_state:
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/README.md: 3223
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/.DS_Store: 6148
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/01.png: 831850
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/02.png: 813967
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/03.png: 833902
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/04.png: 830546
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/05.png: 837982
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/06.png: 798513
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/07.png: 856734
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/08.png: 747697
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/09.png: 862879
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/10.png: 940216
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/11.png: 980374
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/12.png: 2101203
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/13.png: 2104243
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/14.png: 741311
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/15.png: 729047
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/16.png: 702743
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/17.png: 1092927
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/18.png: 1142014
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/19.png: 1077068
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/20.png: 1205420
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/.DS_Store: 6148
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/README.md: 4419
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/21.png: 1003575
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/22.png: 1005061
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/23.png: 1015387
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/24.png: 935069
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/25.png: 947006
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/26.png: 961756
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/27.png: 988848
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/28.png: 1018300
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/29.png: 1118628
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/30.png: 1054775
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/31.png: 821305
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/32.png: 823061
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/33.png: 822610
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/34.png: 886462
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/35.png: 924491
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/36.png: 905998
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/37.png: 1031987
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/38.png: 918527
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/39.png: 925292
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/40.png: 1010848
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/41.png: 1104463
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/42.png: 1005841
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/43.png: 1015477
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/44.png: 1012031
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/45.png: 940734
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/46.png: 939062
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/47.png: 950754
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/48.png: 1002556
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/01.png: 1549342
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/02.png: 661725
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/03.png: 1134094
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/04.png: 1091269
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/05.png: 1263314
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/06.png: 1266714
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/07.png: 1266441
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/08.png: 1201424
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/09.png: 1254848
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/10.png: 750894
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/11.png: 755873
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/12.png: 817203
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/13.png: 820276
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/14.png: 817369
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/15.png: 881776
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/16.png: 920090
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/17.png: 901236
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/18.png: 1063731
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/19.png: 919313
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/20.png: 924125
+      assignment-3-ai-and-agents/questions-and-next-steps/docs/README.md: 3289
+      assignment-3-ai-and-agents/questions-and-next-steps/docs/images/01.png: 786392
+      assignment-1-getting-started/lab-1-sign-in/docs/README.md: 1666
+      assignment-1-getting-started/lab-1-sign-in/docs/images/.DS_Store: 6148
+      assignment-1-getting-started/lab-1-sign-in/docs/images/01.png: 868509
+      assignment-1-getting-started/lab-1-sign-in/docs/images/02.png: 858784
+      assignment-1-getting-started/lab-1-sign-in/docs/images/03.png: 749661
+      assignment-1-getting-started/lab-1-sign-in/docs/images/04.png: 751466
+      assignment-1-getting-started/lab-1-sign-in/docs/images/05.png: 758305
+      assignment-1-getting-started/lab-1-sign-in/docs/images/06.png: 459747
+      assignment-1-getting-started/lab-1-sign-in/docs/images/07.png: 554571
+      assignment-1-getting-started/lab-1-sign-in/docs/images/08.png: 564292
+      assignment-1-getting-started/lab-1-sign-in/docs/images/09.png: 557128
+      assignment-1-getting-started/lab-1-sign-in/docs/images/10.png: 253944
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/README.md: 6142
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/.DS_Store: 6148
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/01.png: 832090
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/02.png: 1087031
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/03.png: 929098
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/04.png: 882427
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/05.png: 903701
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/06.png: 910911
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/07.png: 884870
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/08.png: 892001
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/09.png: 1022029
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/10.png: 954799
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/11.png: 899372
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/12.png: 908040
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/13.png: 978364
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/14.png: 972938
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/15.png: 991568
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/16.png: 908702
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/17.png: 841618
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/18.png: 927662
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/19.png: 900652
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/20.png: 951440
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/21.png: 725831
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/22.png: 779007
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/23.png: 775299
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/24.png: 792945
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/25.png: 829835
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/26.png: 1185449
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/27.png: 1183261
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/28.png: 943534
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/29.png: 1057122
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/30.png: 513907
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/31.png: 789718
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/32.png: 829770
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/README.md: 906
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/.DS_Store: 6148
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/01.png: 829770
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/02.png: 857494
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/03.png: 1056067
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/04.png: 1046674
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/05.png: 993034
+      assignment-2-query-and-explore/lab-4-query/docs/README.md: 9057
+      assignment-2-query-and-explore/lab-4-query/docs/images/.DS_Store: 8196
+      assignment-2-query-and-explore/lab-4-query/docs/images/01.png: 1040162
+      assignment-2-query-and-explore/lab-4-query/docs/images/02.png: 1137542
+      assignment-2-query-and-explore/lab-4-query/docs/images/03.png: 1123604
+      assignment-2-query-and-explore/lab-4-query/docs/images/04.png: 1039151
+      assignment-2-query-and-explore/lab-4-query/docs/images/05.png: 1071860
+      assignment-2-query-and-explore/lab-4-query/docs/images/06.png: 1107521
+      assignment-2-query-and-explore/lab-4-query/docs/images/07.png: 1082870
+      assignment-2-query-and-explore/lab-4-query/docs/images/08.png: 1087556
+      assignment-2-query-and-explore/lab-4-query/docs/images/09.png: 1100572
+      assignment-2-query-and-explore/lab-4-query/docs/images/10.png: 837656
+      assignment-2-query-and-explore/lab-4-query/docs/images/11.png: 780589
+      assignment-2-query-and-explore/lab-4-query/docs/images/12.png: 1195369
+      assignment-2-query-and-explore/lab-4-query/docs/images/13.png: 1161854
+      assignment-2-query-and-explore/lab-4-query/docs/images/14.png: 1160539
+      assignment-2-query-and-explore/lab-4-query/docs/images/15.png: 1123015
+      assignment-2-query-and-explore/lab-4-query/docs/images/16.png: 1172083
+      assignment-2-query-and-explore/lab-4-query/docs/images/17.png: 1202610
+      assignment-2-query-and-explore/lab-4-query/docs/images/18.png: 1193732
+      assignment-2-query-and-explore/lab-4-query/docs/images/19.png: 1199593
+      assignment-2-query-and-explore/lab-5-explore/docs/README.md: 1821
+      assignment-2-query-and-explore/lab-5-explore/docs/images/01.png: 1199938
+      assignment-2-query-and-explore/lab-5-explore/docs/images/02.png: 923445
+      assignment-2-query-and-explore/lab-5-explore/docs/images/03.png: 953789
+      assignment-2-query-and-explore/lab-5-explore/docs/images/04.png: 969561
+      assignment-2-query-and-explore/lab-5-explore/docs/images/05.png: 954325
+      assignment-2-query-and-explore/lab-5-explore/docs/images/06.png: 962569
+      assignment-2-query-and-explore/lab-5-explore/docs/images/07.png: 962524
+      assignment-2-query-and-explore/lab-5-explore/docs/images/08.png: 963742
+      assignment-2-query-and-explore/lab-5-explore/docs/images/09.png: 1592888
+      assignment-2-query-and-explore/lab-5-explore/docs/images/10.png: 1231204
+      assignment-2-query-and-explore/lab-5-explore/docs/images/11.png: 1234340
+      assignment-2-query-and-explore/lab-5-explore/docs/images/12.png: 1305786
+      assignment-2-query-and-explore/lab-5-explore/docs/images/13.png: 1241399
+      assignment-2-query-and-explore/lab-5-explore/docs/images/14.png: 1236222
+      assignment-2-query-and-explore/lab-5-explore/docs/images/15.png: 1264762
+      assignment-2-query-and-explore/lab-5-explore/docs/images/16.png: 1267293
+      assignment-2-query-and-explore/lab-5-explore/docs/images/17.png: 1594131
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/README.md: 2584
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/01.png: 1441455
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/02.png: 836582
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/03.png: 825487
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/04.png: 514606
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/05.png: 917872
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/06.png: 735953
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/07.png: 876647
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/08.png: 1143023
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/09.png: 1147664
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/10.png: 889295
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/11.png: 1005613
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/12.png: 1093906
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/13.png: 1308318
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/14.png: 1296049
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs/images/15.png: 1021691
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/README.md: 1065
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/01.png: 1594407
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/02.png: 814503
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/03.png: 1009918
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/04.png: 1042150
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/05.png: 896146
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/06.png: 865395
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/07.png: 875587
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/08.png: 886527
+      assignment-3-ai-and-agents/lab-9-aura-agent/docs/images/09.png: 1023484
+      assignment-3-ai-and-agents/questions-and-next-steps/docs/.DS_Store: 6148
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/21.png: 830609
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/22.png: 858542
+      assignment-3-ai-and-agents/lab-7-deploy-foundry/docs/images/23.png: 1037255
+      assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/.DS_Store: 6148
+    changes:
+      settings:
+        - scope: part
+          assignment_id: '5419102'
+          assignment_name: Cloud Environment
+          part_id: '5419103'
+          part_name: Cloud Environment
+          field: lab_interface
+          from:
+            controls:
+              - Stop Button
+              - Start Button
+              - Reset
+            panels:
+              - Console
+              - Source
+              - File Browser
+              - Html
+              - Nav Bar
+            '':
+              - Apps
+            information:
+              - Assignments
+          to:
+            panels:
+              - Source
+              - File Browser
+              - Html
+              - Nav Bar
+            controls:
+              - Reset
+            information:
+              - Assignments
+      files:
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/.DS_Store
+          part_id: '5448667'
+          directory: docs
+          previous_size: 6148
+          current_size: 6148
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/README.md
+          part_id: '5448667'
+          directory: docs
+          previous_size: 4155
+          current_size: 4419
+          delta: 264
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/.DS_Store
+          part_id: '5448667'
+          directory: docs
+          previous_size: 6148
+          current_size: 6148
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/01.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1549342
+          current_size: 1549342
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/02.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 661725
+          current_size: 661725
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/03.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1134094
+          current_size: 1134094
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/04.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1091269
+          current_size: 1091269
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/05.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1263314
+          current_size: 1263314
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/06.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1266714
+          current_size: 1266714
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/07.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1266441
+          current_size: 1266441
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/08.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1201424
+          current_size: 1201424
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/09.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1254848
+          current_size: 1254848
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/10.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 750894
+          current_size: 750894
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/11.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 755873
+          current_size: 755873
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/12.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 817203
+          current_size: 817203
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/13.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 820276
+          current_size: 820276
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/14.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 817369
+          current_size: 817369
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/15.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 881776
+          current_size: 881776
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/16.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 920090
+          current_size: 920090
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/17.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 901236
+          current_size: 901236
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/18.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1063731
+          current_size: 1063731
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/19.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 919313
+          current_size: 919313
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/20.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 924125
+          current_size: 924125
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/21.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1003575
+          current_size: 1003575
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/22.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1005061
+          current_size: 1005061
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/23.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1015387
+          current_size: 1015387
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/24.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 935069
+          current_size: 935069
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/25.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 947006
+          current_size: 947006
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/26.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 961756
+          current_size: 961756
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/27.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 988848
+          current_size: 988848
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/28.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1018300
+          current_size: 1018300
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/29.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1118628
+          current_size: 1118628
+          delta: 0
+        - path: assignment-3-ai-and-agents/lab-8-use-foundry/docs/images/30.png
+          part_id: '5448667'
+          directory: docs
+          previous_size: 1054775
+          current_size: 1054775
+          delta: 0
+    created: []
+    updated:
+      - assignment: '5419122'
+        parts: []
+      - assignment: '5419142'
+        parts: []
+      - assignment: '5419144'
+        parts:
+          - '5448667'
+      - assignment: '5419102'
+        parts:
+          - '5419103'
   - timestamp: '2026-05-27T07:15:30.916Z'
     commit_sha: 0633fb5
     published_by: Ben Lackey

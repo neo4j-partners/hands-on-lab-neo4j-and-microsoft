@@ -174,6 +174,16 @@ Here's another command to try:
 It does appear the agent is using data from Bing, not just the database underlying the MCP server.  We can try to avoid that in two ways:
 
 1. Disable Bing in the Foundry UI
-2. Modify the prompt, adding text like "Use only the MCP server for results."
+2. Modify the prompt, adding text such as:
+
+    You must ONLY answer using the provided knowledge sources.
+    If the answer is not found in the retrieved data:
+    * Respond with: "I don't know based on available data."
+    * Do NOT use prior knowledge
+    * Do NOT infer or guess
+    Always cite the source used.
 
 Feel free to explore and try your own ideas too!
+
+
+
