@@ -184,6 +184,3 @@ It does appear the agent is using data from Bing, not just the database underlyi
     Always cite the source used.
 
 Feel free to explore and try your own ideas too!
-
-
-
