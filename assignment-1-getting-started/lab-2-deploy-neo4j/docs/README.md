@@ -105,28 +105,6 @@ Click "Sign up."
 
 ![](images/20.png)
 
-You'll then be presented with a dialog to gather information about your use case.  Enter your information.
-
-Note that we're starting to build a labeled property graph describing our use case.
-
-![](images/21.png)
-
-Click "Next."
-
-![](images/22.png)
-
-Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
-
-![](images/23.png)
-
-Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
-
-![](images/24.png)
-
-Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
-
-![](images/25.png)
-
 We're now presented with a choice of product tiers within Neo4j:
 
 * Free
@@ -137,11 +115,11 @@ The Free tier is a great way to get started experimenting.  Business Critical of
 
 Note that since we punched of the Microsoft Marketplace, we carried along a payment mechanism from our Vocareum accont.  You will not be charged personally for the usage of Neo4j Aura today.  Instead that will be billed to Vocareum through the Microsoft Marketplace.
 
-![](images/26.png)
+![](images/21.png)
 
 Now, let's inspect the other options.
 
-![](images/27.png)
+![](images/22.png)
 
 We can deploy in different regions.
 
@@ -151,23 +129,23 @@ Finally, there's an option to optimize the database for vector search.  We'll be
 
 We've reached the bottom!  Click "Create Instance."
 
-![](images/28.png)
+![](images/23.png)
 
 You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-![](images/29.png)
+![](images/24.png)
 
 A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/30.png)
+![](images/25.png)
 
 You'll see a dialog that your database is being created. This should only take a few minutes.
 
-![](images/31.png)
+![](images/26.png)
 
 When deployment is complete you'll see the instance details in the management console.  
 
-![](images/32.png)
+![](images/27.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
