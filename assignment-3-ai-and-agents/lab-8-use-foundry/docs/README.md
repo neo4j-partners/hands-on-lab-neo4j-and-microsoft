@@ -3,63 +3,35 @@
 Let's investigate our deployment in the Foundry portal.  
 
 1. Open [https://ai.azure.com/](https://ai.azure.com/).
-2. Click "Sign in" in the upper right.
+2. Click "Start building" in the upper right.
 
 ![](images/01.png)
 
-Select your project.
+Dismiss the dialog.
 
 ![](images/02.png)
 
 You should see the project that our deploy script created.  In this case it is proj-foundry-neo4j-demo.  
 
-Note that "Create agents" is grayed out.  That is because a role is disabled.  Click the slider by "New Foundry" to go back to the previous UI version.
+Select your project.
 
 ![](images/03.png)
 
-Click "Continue without feedback."
+Click "Create agents."
 
 ![](images/04.png)
 
-Click "Agents" in the left menu.
+Enter the name "neo4j-research-agent"
 
 ![](images/05.png)
 
-Click "Fix Me" to fix the role.
+Click "Create."
 
 ![](images/06.png)
 
-Click "X" to close the menu once it says it is fixed.
-
-![](images/07.png)
-
-Click "New agent."
-
-![](images/08.png)
-
-Click "Create new agent."
-
-![](images/09.png)
-
-If you've done this quickly, you may see an error that "You don't have permission to build agents in this project."  You can try refreshing or waiting for it to go away.
-
-![](images/10.png)
-
-Once the screen loads properly you should see the following.  Click "Create agent."
-
-![](images/11.png)
-
-Enter the name "neo4j-research-agent"
-
-![](images/12.png)
-
-Click "Create and open playground."
-
-![](images/13.png)
-
 That will take a moment to run.
 
-![](images/14.png)
+![](images/07.png)
 
 For instructions enter:
 
@@ -96,27 +68,27 @@ For instructions enter:
     prior knowledge. If read-cypher returns nothing, reply "the graph doesn't
     contain that". Use modern Cypher (`WHERE x IS NOT NULL`).`
 
-![](images/15.png)
+![](images/08.png)
 
 Now under tools click "Add."
 
-![](images/16.png)
+![](images/09.png)
 
 Click "Browse all tools."
 
-![](images/17.png)
+![](images/10.png)
 
 Click "Custom."
 
-![](images/18.png)
+![](images/11.png)
 
 Click "Model Context Protocol (MCP)"
 
-![](images/19.png)
+![](images/12.png)
 
 Click "Create."
 
-![](images/20.png)
+![](images/13.png)
 
 We're going to need to fill out these values.
 
@@ -124,63 +96,67 @@ We're going to need to fill out these values.
 * Remote MCP Server endpoint - value from last lab (note if you don't have this, you can open your Cloud Shell and run cat neo4j-agent-integrations/microsoft-foundry/.env to get it)
 * Authentication - Key based
 
-![](images/21.png)
+![](images/14.png)
 
 For the key/value pair, enter the values:
 
 * Authorization
 * Basic Y29tcGFuaWVzOmNvbXBhbmllcw==
 
-![](images/22.png)
+![](images/15.png)
 
 Click "Connect."
 
-![](images/23.png)
+![](images/16.png)
 
-In the "Message the agent..." field type:
+Let's remove the web search.  That way the agent will only use the MCP server for grounding.  To do so click the three dots next to web search.
+
+![](images/17.png)
+
+Click "Remove."
+
+![](images/18.png)
+
+Now let's try our agent.  In the "Message the agent..." field type:
 
     Tell me about Microsoft — what industry it competes in, who runs it, and where it's headquartered.
 
-![](images/24.png)
+![](images/19.png)
 
 Hit enter.
 
-![](images/25.png)
+![](images/20.png)
 
 Click "Approve."
 
-![](images/26.png)
+![](images/21.png)
 
 Click "Always approve this tool."
 
-![](images/27.png)
+![](images/22.png)
+
+Click "Approve."
+
+![](images/23.png)
+
+Click "Always approve this tool."
+
+![](images/24.png)
 
 That gives this result.
 
-![](images/28.png)
+![](images/25.png)
 
 Now let's try a different command:
 
     Find three companies that compete in the same industry as Microsoft.
 
-![](images/29.png)
+![](images/26.png)
 
 Here's another command to try:
 
     What recent articles mention Microsoft, and what topics do they cover?
 
-![](images/30.png)
-
-It does appear the agent is using data from Bing, not just the database underlying the MCP server.  We can try to avoid that in two ways:
-
-1. Disable Bing in the Foundry UI
-2. Modify the prompt, adding text such as:
-
-    You must ONLY answer using the provided knowledge sources.
-    If the answer is not found in the retrieved data:
-    * Respond with: "I don't know based on available data."
-    * Do NOT use prior knowledge
-    * Do NOT infer or guess
-    Always cite the source used.
+![](images/27.png)
 
 Feel free to explore and try your own ideas too!
