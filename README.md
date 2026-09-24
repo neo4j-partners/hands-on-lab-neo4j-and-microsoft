@@ -31,7 +31,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lab 1 - Sign In (5 min)
   * Improving the Labs
   * Sign into Microsoft Azure
-* Lab 2 - Deploy Neo4j (15 min)
+* Lab 2 - Deploy Neo4j (10 min)
   * Deploying Neo4j Aura Professional
 * Lab 3 - Connect to Neo4j (5 min)
 * Break (5 min)
@@ -41,7 +41,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lecture - Moving Data (10 min)
   * LOAD CSV
   * Neo4j Aura Importer
-* Lab 4 - Query (15 min)
+* Lab 4 - Query (10 min)
   * Simple Load Statement
   * More Performant Load
 * Lab 5 - Explore (10 min)
@@ -50,7 +50,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ### Assignment 3
 
-* Lecture - Foundry (15 min)
+* Lecture - Foundry (20 min)
   * Microsoft and AI
   * What is Foundry
 * Lecture - Neo4j and AI (15 min)
@@ -61,4 +61,4 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lab 7 - Deploy Foundry (15 min)
 * Lab 8 - Use Foundry (15 min)
 * Lab 9 - Aura Agent (15 min)
-* Questions and Next Steps (5 min)
+* Questions and Next Steps (15 min)
