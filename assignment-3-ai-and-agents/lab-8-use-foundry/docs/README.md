@@ -3,35 +3,31 @@
 Let's investigate our deployment in the Foundry portal.  
 
 1. Open [https://ai.azure.com/](https://ai.azure.com/).
-2. Click "Start building" in the upper right.
+2. Click "Sign In" in the upper right.
 
 ![](images/01.png)
-
-Dismiss the dialog.
-
-![](images/02.png)
 
 You should see the project that our deploy script created.  In this case it is proj-foundry-neo4j-demo.  
 
 Select your project.
 
+![](images/02.png)
+
+Click "Create an agent."
+
 ![](images/03.png)
 
-Click "Create agents."
+Click "New agent."
 
 ![](images/04.png)
 
-Enter the name "neo4j-research-agent"
+Click "Build an Agent."
 
 ![](images/05.png)
 
-Click "Create."
+Keep the defaults.  Click "Create agent and open playground."
 
 ![](images/06.png)
-
-That will take a moment to run.
-
-![](images/07.png)
 
 For instructions enter:
 
@@ -68,78 +64,82 @@ For instructions enter:
     prior knowledge. If read-cypher returns nothing, reply "the graph doesn't
     contain that". Use modern Cypher (`WHERE x IS NOT NULL`).`
 
-![](images/08.png)
+![](images/07.png)
 
 Now under tools click "Add."
 
+![](images/08.png)
+
+Click "Add tools."
+
 ![](images/09.png)
-
-Click "Browse all tools."
-
-![](images/10.png)
 
 Click "Custom."
 
-![](images/11.png)
+![](images/10.png)
 
 Click "Model Context Protocol (MCP)"
 
-![](images/12.png)
+![](images/11.png)
 
 Click "Create."
 
-![](images/13.png)
+![](images/12.png)
 
 We're going to need to fill out these values.
 
-* Name - neo4j-mcp
-* Remote MCP Server endpoint - value from last lab (note if you don't have this, you can open your Cloud Shell and run cat neo4j-agent-integrations/microsoft-foundry/.env to get it)
-* Authentication - Key based
+* **Name** - neo4j-mcp
+* **Remote MCP Server endpoint** - value from last lab (note if you don't have this, you can open your Cloud Shell and run cat neo4j-agent-integrations/microsoft-foundry/.env to get it)
+* **Authentication** - Key based
 
-![](images/14.png)
+![](images/13.png)
 
 For the key/value pair, enter the values:
 
 * Authorization
 * Basic Y29tcGFuaWVzOmNvbXBhbmllcw==
 
-![](images/15.png)
+![](images/14.png)
 
 Click "Connect."
 
-![](images/16.png)
+![](images/15.png)
 
 Let's remove the web search.  That way the agent will only use the MCP server for grounding.  To do so click the three dots next to web search.
 
-![](images/17.png)
+![](images/16.png)
 
 Click "Remove."
 
-![](images/18.png)
+![](images/17.png)
 
 Now let's try our agent.  In the "Message the agent..." field type:
 
     Tell me about Microsoft — what industry it competes in, who runs it, and where it's headquartered.
 
-![](images/19.png)
+![](images/18.png)
 
 Hit enter.
 
-![](images/20.png)
+![](images/19.png)
 
 Click "Approve."
+
+![](images/20.png)
+
+Click "Always approve this tool."
 
 ![](images/21.png)
 
-Click "Always approve this tool."
+Click "Approve."
 
 ![](images/22.png)
 
-Click "Approve."
+Click "Always approve this tool."
 
 ![](images/23.png)
 
-Click "Always approve this tool."
+Currently seeing an error here ----
 
 ![](images/24.png)
 
