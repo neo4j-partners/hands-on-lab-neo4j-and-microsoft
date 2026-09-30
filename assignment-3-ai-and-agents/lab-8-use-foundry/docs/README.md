@@ -111,6 +111,8 @@ Let's remove the web search.  That way the agent will only use the MCP server fo
 
 Click "Remove."
 
+Click "Save" to save our configuration.
+
 ![](images/17.png)
 
 Now let's try our agent.  In the "Message the agent..." field type:
@@ -139,24 +141,20 @@ Click "Always approve this tool."
 
 ![](images/23.png)
 
-Currently seeing an error here ----
-
-![](images/24.png)
-
 That gives this result.
 
-![](images/25.png)
+![](images/24.png)
 
 Now let's try a different command:
 
     Find three companies that compete in the same industry as Microsoft.
 
-![](images/26.png)
+![](images/25.png)
 
 Here's another command to try:
 
     What recent articles mention Microsoft, and what topics do they cover?
 
-![](images/27.png)
+![](images/26.png)
 
 Feel free to explore and try your own ideas too!
