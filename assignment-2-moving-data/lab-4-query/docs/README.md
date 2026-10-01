@@ -73,10 +73,6 @@ At this point, take some time to poke around the graph.
 
 ![](images/10.png)
 
-Click the different views in the upper right to adjust the display.
-
-![](images/10.png)
-
 We can click on some more nodes and expand them.
 
 ![](images/11.png)
