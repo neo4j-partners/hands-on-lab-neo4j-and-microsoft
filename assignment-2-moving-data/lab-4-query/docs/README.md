@@ -152,7 +152,7 @@ So, let's add the relationships.
     }
     IN TRANSACTIONS OF 1000 ROWS;
 
-This will run for about 90 seconds.  When complete, you should see this:
+When complete, you should see this:
 
 ![](images/18.png)
 
